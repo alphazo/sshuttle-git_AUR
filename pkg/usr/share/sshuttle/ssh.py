@@ -84,8 +84,6 @@ def connect(ssh_cmd, rhostport, python, stderr, options):
         if python:
             pycmd = "'%s' -c '%s'" % (python, pyscript)
         else:
-            p1 = 'python2'
-            p2 = 'python'
             pycmd = ("P=python2; $P -V 2>/dev/null || P=python; "
                      "\"$P\" -c '%s'") % pyscript
         argv = (sshl + 
