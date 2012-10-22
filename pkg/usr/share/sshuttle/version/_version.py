@@ -1,0 +1,3 @@
+COMMIT='9ce2fa00f94c2f2e5c310abeb1a2907ae7e7a7b0'
+TAG='0.61-4-g9ce2fa0'
+DATE='2012-08-10'
